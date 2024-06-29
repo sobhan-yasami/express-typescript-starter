@@ -1,0 +1,20 @@
+{
+  "name": "express-typescript",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start:build": "tsc -w",
+    "start:run": "nodemon build/index.js",
+    "start": "concurrently npm:start:*"
+  },
+  "keywords": [],
+  "author": "Sobhan Yasami",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@types/node": "^20.14.9",
+    "concurrently": "^8.2.2",
+    "nodemon": "^3.1.4"
+  }
+}
